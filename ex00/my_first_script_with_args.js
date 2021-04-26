@@ -1,6 +1,5 @@
-args = process.argv.slice(2);
-index = 0;
-while (index < args.length) {
-    console.log(args[index]);
-    index++;
+const args = process.argv.slice(2);
+for(let i = 2; i < process.argv.length; i ++)
+ {
+    console.log(process.argv[i]);
 }
